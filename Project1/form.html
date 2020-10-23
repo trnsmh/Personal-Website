@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="EN">
+    <head>
+            <link href="https://fonts.googleapis.com/css?family=Reenie+Beanie|Shadows+Into+Light&display=swap" rel="stylesheet">    <link href="main.css" rel="stylesheet">
+            <link href="main.css" rel="stylesheet">
+        <title>Survey</title>
+    </head>
+    <body>
+        <form method="POST">
+            <fieldset class="fieldborder"> 
+                <legend class="fonts">Some about you</legend>
+            
+                <label for= "fname">First Name* </label>
+                <input placeholder="name..." type="text" id="fname" name="firstname"/>
+            <br>
+            
+                <label for="email">Email Address* </label>
+                <input placeholder="email..." type="email" id="email" name="Email"/>
+            <br>
+
+
+                    <br>
+                    <label for="select">Interested in Photography?:</label>
+                    <select required name="phtgrpy" id="select">
+                    <option value="">go for one</option>
+                    <option value="N">oh yeah</option>
+                    <option value="Y">maybe</option>
+                    <option value="N">nope</option>
+                    </select>
+                    <br>
+                    <p>Which one of the photo you liked from the photos page?</p>
+                    <input type="radio" name="ph1" value="ph1" id="p1">
+                    <label for="p1">Sunset in Chinatown</label>
+                    <input type="radio" name="ph2" value="ph2" id="p2">
+                    <label for="p2">Downtown City</label>
+                    <input type="radio" name="ph3" value="ph3" id="p3">
+                    <label for="p3">FlatIron</label>
+                    <input type="radio" name="ph4" value="ph4" id="p4">
+                    <label for="p4">Pier 17</label>
+                    <input type="radio" name="ph5" value="ph5" id="p5">
+                    <label for="p5">The Bridge</label>
+                    <input type="radio" name="ph6" value="ph6" id="p6">
+                    <label for="p6">Tricky</label>
+                    <input type="radio" name="ph7" value="ph7" id="p7">
+                    <label for="p7">Silhouette</label>
+                    <input type="radio" name="none" value="no" id="no">
+                    <label for="no">None of them...</label>
+                    <br>
+
+                    <br>
+                    <label for="Music">Your type of jams**:</label>
+                    <select  multiple required name="music" id="Music"  size="8">
+                    <option value="">as many as you like</option>
+                    <option value="Classic">Classic</option>
+                    <option value="Jazz-Blues">Jazz-Blues</option>
+                    <option value="Pop">Pop</option>
+                    <option value="HipHop & RnB">HipHop & RnB</option>
+                    <option value="Dance & Electronic">Dance</option>
+                    <option value="Chill">Chill</option>
+                    <option value="Acoustic Guitar & Rock">Acoustic Guitar & Rock</option>
+                    </select>
+                    <br>
+                    <p>Comments:
+                    <textarea placeholder= "what do you think?" rows="6" cols="50"></textarea>
+                    </p>
+                    <br>
+                    <p class="bottom">* Required | **Hold CTRL(Windows) or CMD(Mac) to chooses multiple options.</p>
+                    <br>
+                    <input class="button" type="submit" value="SUBMIT">
+                </fieldset>
+                <br>
+        </form>
+        <footer>
+            <nav>
+                  <a href="main.html">Home</a> | <a href="Photos.html">Photos</a> | <a href="form.html">Survey</a>
+            </nav>  
+        </footer>
+        <p>Copyright 2019 All Rights Reserved.</p>
+    </body>
+    </html>
